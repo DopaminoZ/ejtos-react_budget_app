@@ -24,9 +24,10 @@ const Currency = () => {
                 <h3>Currency ({head})</h3>
                             { showItems && <div className='db-items'>
                                 <p value="$" onClick={handleClick}>$ Dollar</p>
-                                <p value="€" onClick={handleClick}>€ Euro</p>
-                                <p value="₹" onClick={handleClick}>₹ Rupee</p>
                                 <p value="£" onClick={handleClick}>£ Pound</p>
+                                <p value="₹" onClick={handleClick}>₹ Rupee</p>
+                                <p value="€" onClick={handleClick}>€ Euro</p>
+                                
                 </div>}
         </div>
     );
