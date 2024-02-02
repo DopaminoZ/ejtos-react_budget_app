@@ -27,6 +27,28 @@
 .App-link {
   color: #61dafb;
 }
+.db{
+  background-color: rgb(139, 255, 154);
+  border-radius: 10px;
+}
+.db h3{
+  text-align: center;
+  cursor: pointer;
+}
+.db-items p{
+  text-align: center;
+  cursor: pointer;
+}
+.db-items p:hover{
+  background-color: darkgreen;
+}
+.db-items{
+  position: absolute;
+  left:1302px;
+  top:114px;
+  width:306px;
+  background-color: rgb(139, 255, 154);
+}
 
 @keyframes App-logo-spin {
   from {
